@@ -1,0 +1,314 @@
+asdkjasd[02-Apr-2013 08:15:39] PHP Notice:  Undefined variable: E8 in /home/pearlypi/public_html/bms/includes/database.php on line 9
+[02-Apr-2013 08:15:39] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'pearlypi_bms'@'localhost' (using password: YES)' in /home/pearlypi/public_html/bms/includes/database.php:12
+Stack trace:
+#0 /home/pearlypi/public_html/bms/includes/database.php(12): PDO->__construct('mysql:host=loca...', 'pearlypi_bms', '%]_uq70P.', Array)
+#1 /home/pearlypi/public_html/bms/index.php(27): ConnectToDB()
+#2 {main}
+  thrown in /home/pearlypi/public_html/bms/includes/database.php on line 12
+[02-Apr-2013 08:15:39] PHP Notice:  Undefined variable: E8 in /home/pearlypi/public_html/bms/includes/database.php on line 9
+[02-Apr-2013 08:15:39] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'pearlypi_bms'@'localhost' (using password: YES)' in /home/pearlypi/public_html/bms/includes/database.php:12
+Stack trace:
+#0 /home/pearlypi/public_html/bms/includes/database.php(12): PDO->__construct('mysql:host=loca...', 'pearlypi_bms', '%]_uq70P.', Array)
+#1 /home/pearlypi/public_html/bms/index.php(27): ConnectToDB()
+#2 {main}
+  thrown in /home/pearlypi/public_html/bms/includes/database.php on line 12
+[02-Apr-2013 08:16:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:16:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:16:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:17:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:17:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:18:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:18:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:19:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:23:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:23:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 08:24:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/templates.php:66) in /home/pearlypi/public_html/bms/modules/login/index.php on line 50
+[02-Apr-2013 10:48:32] PHP Warning:  require(includes/bms.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 16
+[02-Apr-2013 10:48:32] PHP Warning:  require(includes/bms.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 16
+[02-Apr-2013 10:48:32] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/bms.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/index.php on line 16
+[02-Apr-2013 10:50:38] PHP Fatal error:  Class 'bms' not found in /home/pearlypi/public_html/bms/index.php on line 20
+[02-Apr-2013 10:50:49] PHP Fatal error:  Class 'bms' not found in /home/pearlypi/public_html/bms/index.php on line 20
+[02-Apr-2013 10:51:22] PHP Fatal error:  Class 'bms' not found in /home/pearlypi/public_html/bms/index.php on line 20
+[02-Apr-2013 10:53:43] PHP Fatal error:  Class 'bms' not found in /home/pearlypi/public_html/bms/index.php on line 20
+[02-Apr-2013 10:53:58] PHP Notice:  Undefined variable: me in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:53:58] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:55:15] PHP Notice:  Undefined variable: me in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:55:15] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:55:25] PHP Notice:  Undefined variable: me in /home/pearlypi/public_html/bms/includes/bms.php on line 11
+[02-Apr-2013 10:55:25] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/includes/bms.php on line 11
+[02-Apr-2013 10:55:36] PHP Notice:  Undefined variable: me in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:55:36] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/index.php on line 24
+[02-Apr-2013 10:55:46] PHP Notice:  Undefined variable: header in /home/pearlypi/public_html/bms/index.php on line 36
+[02-Apr-2013 10:55:46] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/index.php on line 36
+[02-Apr-2013 10:56:00] PHP Notice:  Undefined variable: template in /home/pearlypi/public_html/bms/index.php on line 60
+[02-Apr-2013 10:56:00] PHP Fatal error:  Call to a member function setValues() on a non-object in /home/pearlypi/public_html/bms/index.php on line 60
+[02-Apr-2013 10:56:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/modules/login/index.php:5) in /home/pearlypi/public_html/bms/modules/login/index.php on line 50
+[02-Apr-2013 11:02:05] PHP Fatal error:  Cannot redeclare class Template in /home/pearlypi/public_html/bms/includes/templates.php on line 3
+[02-Apr-2013 11:02:20] PHP Notice:  Undefined variable: footer in /home/pearlypi/public_html/bms/index.php on line 82
+[02-Apr-2013 11:02:20] PHP Fatal error:  Cannot access empty property in /home/pearlypi/public_html/bms/index.php on line 82
+[02-Apr-2013 11:02:37] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:02:39] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:02:39] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:13] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:04:14] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:14] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:15] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:04:16] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:16] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:17] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:04:19] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:19] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:38] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:04:39] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 87
+[02-Apr-2013 11:04:44] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:04:44] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:06:37] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 86
+[02-Apr-2013 11:06:39] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:06:39] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:10:41] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 86
+[02-Apr-2013 11:10:44] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:10:44] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:11:25] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 86
+[02-Apr-2013 11:11:27] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:11:27] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:12:53] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:12:53] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:14:06] PHP Parse error:  syntax error, unexpected T_GLOBAL in /home/pearlypi/public_html/bms/modules/index/index.php on line 5
+[02-Apr-2013 11:14:17] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:14:17] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:14:59] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:14:59] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:15:05] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:15:05] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:16:01] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:16:01] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:16:02] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 86
+[02-Apr-2013 11:16:03] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:16:03] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:17:04] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:17:04] PHP Fatal error:  Call to a member function can_search() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 21
+[02-Apr-2013 11:18:08] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/modules/search/class.php on line 45
+[02-Apr-2013 11:18:08] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/modules/search/class.php on line 45
+[02-Apr-2013 11:18:42] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 85
+[02-Apr-2013 11:21:40] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 11:22:57] PHP Parse error:  syntax error, unexpected T_GLOBAL, expecting T_FUNCTION in /home/pearlypi/public_html/bms/modules/search/class.php on line 5
+[02-Apr-2013 11:23:24] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 11:23:26] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 11:24:11] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 11:24:16] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:31] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:31] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:50] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:50] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:58] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:41:58] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:42:08] PHP Notice:  Undefined index:  ME in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 13:42:08] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/index.php on line 39
+[02-Apr-2013 14:15:58] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 74
+[02-Apr-2013 14:15:58] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 74
+[02-Apr-2013 14:15:58] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'modules/task/index.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/index.php on line 74
+[02-Apr-2013 14:16:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pearlypi/public_html/bms/modules/logout/index.php on line 8
+[02-Apr-2013 14:16:47] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:16:53] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:16:54] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:20:01] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:20:04] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:20:24] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 14:20:30] PHP Notice:  Undefined index:  person_id in /home/pearlypi/public_html/bms/index.php on line 95
+[02-Apr-2013 15:13:30] PHP Warning:  Missing argument 2 for Template::append_template(), called in /home/pearlypi/public_html/bms/modules/login/index.php on line 60 and defined in /home/pearlypi/public_html/bms/includes/templates.php on line 73
+[02-Apr-2013 15:13:30] PHP Notice:  Undefined variable: valArray in /home/pearlypi/public_html/bms/includes/templates.php on line 75
+[02-Apr-2013 15:13:30] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:13:30] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 78
+[02-Apr-2013 15:13:32] PHP Warning:  Missing argument 2 for Template::append_template(), called in /home/pearlypi/public_html/bms/modules/login/index.php on line 60 and defined in /home/pearlypi/public_html/bms/includes/templates.php on line 73
+[02-Apr-2013 15:13:32] PHP Notice:  Undefined variable: valArray in /home/pearlypi/public_html/bms/includes/templates.php on line 75
+[02-Apr-2013 15:13:32] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:13:32] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 78
+[02-Apr-2013 15:13:35] PHP Warning:  Missing argument 2 for Template::append_template(), called in /home/pearlypi/public_html/bms/modules/login/index.php on line 60 and defined in /home/pearlypi/public_html/bms/includes/templates.php on line 73
+[02-Apr-2013 15:13:35] PHP Notice:  Undefined variable: valArray in /home/pearlypi/public_html/bms/includes/templates.php on line 75
+[02-Apr-2013 15:13:35] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:13:35] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 78
+[02-Apr-2013 15:13:50] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:13:50] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 78
+[02-Apr-2013 15:13:55] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:13:55] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 78
+[02-Apr-2013 15:14:14] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:14:20] PHP Notice:  Undefined variable: template_data in /home/pearlypi/public_html/bms/includes/templates.php on line 70
+[02-Apr-2013 15:16:16] PHP Notice:  Undefined index:  person_password in /home/pearlypi/public_html/bms/includes/functions.php on line 12
+[02-Apr-2013 15:16:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pearlypi/public_html/bms/includes/functions.php:12) in /home/pearlypi/public_html/bms/includes/functions.php on line 42
+[02-Apr-2013 16:06:07] PHP Parse error:  syntax error, unexpected ';' in /home/pearlypi/public_html/bms/modules/person/index.php on line 52
+[02-Apr-2013 16:08:41] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/pearlypi/public_html/bms/modules/person/index.php on line 54
+[02-Apr-2013 16:09:37] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/pearlypi/public_html/bms/modules/person/index.php on line 54
+[02-Apr-2013 16:09:42] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/pearlypi/public_html/bms/modules/person/index.php on line 54
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_jobs.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_jobs.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/person/person_hook_assigned_jobs.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_person.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_person.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/person/person_hook_assigned_person.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_photos.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_photos.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/person/person_hook_assigned_photos.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_task.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include(modules/person/person_hook_assigned_task.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:11:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/person/person_hook_assigned_task.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/modules/person/index.php on line 55
+[02-Apr-2013 16:24:31] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 10
+[02-Apr-2013 16:24:45] PHP Parse error:  syntax error, unexpected '}' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 34
+[02-Apr-2013 16:24:59] PHP Fatal error:  Call to undefined method PDO::perpare() in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 10
+[02-Apr-2013 16:25:29] PHP Fatal error:  Call to undefined method PDO::perpare() in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 13
+[02-Apr-2013 16:25:44] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/includes/templates.php on line 59
+[02-Apr-2013 16:25:44] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/includes/templates.php on line 59
+[02-Apr-2013 16:25:44] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/includes/templates.php on line 59
+[02-Apr-2013 16:34:18] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 33
+[02-Apr-2013 16:34:56] PHP Parse error:  syntax error, unexpected T_VAR in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 20
+[02-Apr-2013 16:35:05] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 35
+[02-Apr-2013 18:36:22] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 33
+[02-Apr-2013 18:54:42] PHP Parse error:  syntax error, unexpected T_IF in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 10
+[02-Apr-2013 18:55:02] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:55:04] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:56:17] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:56:19] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:56:42] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:56:43] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:58:03] PHP Notice:  Undefined index:  Job in /home/pearlypi/public_html/bms/modules/person/class.php on line 226
+[02-Apr-2013 18:58:03] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 226
+[02-Apr-2013 18:58:03] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 18:58:03] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 41
+[02-Apr-2013 19:01:09] PHP Notice:  Undefined index:  Job in /home/pearlypi/public_html/bms/modules/person/class.php on line 227
+[02-Apr-2013 19:01:09] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 227
+[02-Apr-2013 19:01:09] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 19:01:09] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 41
+[02-Apr-2013 19:02:28] PHP Notice:  Array to string conversion in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 19:02:28] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 41
+[02-Apr-2013 19:02:58] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 19:03:37] PHP Notice:  Trying to get property of non-object in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 19:03:37] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 11
+[02-Apr-2013 19:03:37] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 41
+[02-Apr-2013 19:05:09] PHP Notice:  Undefined variable: result_array in /home/pearlypi/public_html/bms/modules/person/person_hook_assigned_jobs.php on line 42
+[02-Apr-2013 19:09:42] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/includes/templates.php on line 45
+[02-Apr-2013 19:11:21] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/includes/templates.php on line 45
+[02-Apr-2013 19:55:33] PHP Notice:  Undefined variable: me in /home/pearlypi/public_html/bms/modules/person/index.php on line 18
+[02-Apr-2013 19:55:33] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/modules/person/index.php on line 18
+[02-Apr-2013 19:55:52] PHP Notice:  Undefined variable: person_id in /home/pearlypi/public_html/bms/modules/person/index.php on line 18
+[02-Apr-2013 19:55:52] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 19:57:44] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 121 of 199 bytes in /home/pearlypi/public_html/bms/modules/person/class.php on line 148
+[02-Apr-2013 19:57:44] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 153
+[02-Apr-2013 19:57:44] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 19:57:45] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 121 of 199 bytes in /home/pearlypi/public_html/bms/modules/person/class.php on line 148
+[02-Apr-2013 19:57:45] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 153
+[02-Apr-2013 19:57:45] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 19:57:45] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 19:57:45] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 19:58:28] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 19:58:28] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 19:58:28] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 19:58:28] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:00:54] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 20:00:55] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:00:55] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:00:55] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:01:14] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 20:01:14] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:01:14] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:01:14] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:01:16] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 20:01:17] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:01:17] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:01:17] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:01:54] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 20:01:54] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:01:54] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:01:54] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:01:55] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 89
+[02-Apr-2013 20:01:56] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:01:56] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:01:56] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:02:14] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:02:15] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:02:15] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:02:15] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:02:15] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:02:15] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:02:15] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:02:15] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:05:19] PHP Parse error:  syntax error, unexpected T_OBJECT_CAST in /home/pearlypi/public_html/bms/includes/bms.php on line 5
+[02-Apr-2013 20:05:35] PHP Parse error:  syntax error, unexpected T_OBJECT_CAST in /home/pearlypi/public_html/bms/includes/bms.php on line 5
+[02-Apr-2013 20:05:52] PHP Parse error:  syntax error, unexpected '}' in /home/pearlypi/public_html/bms/includes/bms.php on line 10
+[02-Apr-2013 20:06:01] PHP Notice:  Undefined property: bms::$header in /home/pearlypi/public_html/bms/index.php on line 61
+[02-Apr-2013 20:06:01] PHP Fatal error:  Call to a member function setValues() on a non-object in /home/pearlypi/public_html/bms/index.php on line 61
+[02-Apr-2013 20:06:24] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:06:24] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:06:24] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:06:24] PHP Notice:  Trying to get property of non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:06:24] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:24:26] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 197 of 198 bytes in /home/pearlypi/public_html/bms/modules/person/class.php on line 148
+[02-Apr-2013 20:24:26] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 153
+[02-Apr-2013 20:24:26] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 197 of 198 bytes in /home/pearlypi/public_html/bms/modules/person/class.php on line 148
+[02-Apr-2013 20:24:26] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/person/class.php on line 153
+[02-Apr-2013 20:24:26] PHP Notice:  Undefined variable: returned_columns in /home/pearlypi/public_html/bms/modules/search/class.php on line 87
+[02-Apr-2013 20:24:26] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 142
+[02-Apr-2013 20:24:26] PHP Warning:  Invalid argument supplied for foreach() in /home/pearlypi/public_html/bms/modules/search/class.php on line 155
+[02-Apr-2013 20:27:26] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:27:26] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:30:39] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:30:39] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:55:57] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 20:55:57] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:09:54] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:09:54] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:30] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:30] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:33] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:33] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:48] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:48] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:50] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:50] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:51] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:10:51] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:04] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:04] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:05] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:05] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:29] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:29] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:30] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:30] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:31] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:31] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:33] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:33] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:35] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:11:35] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:12:44] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:12:44] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:13:14] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:13:14] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[02-Apr-2013 22:15:08] PHP Warning:  require(modules/Job/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[02-Apr-2013 22:15:08] PHP Warning:  require(modules/Job/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[02-Apr-2013 22:15:08] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'modules/Job/index.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/index.php on line 76
+[02-Apr-2013 22:16:21] PHP Fatal error:  Call to undefined function  strtlower() in /home/pearlypi/public_html/bms/index.php on line 72
+[02-Apr-2013 22:18:18] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[02-Apr-2013 22:18:18] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[02-Apr-2013 22:18:18] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'modules/task/index.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/index.php on line 76
+[03-Apr-2013 13:27:45] PHP Parse error:  syntax error, unexpected '{' in /home/pearlypi/public_html/bms/modules/job/index.php on line 24
+[03-Apr-2013 13:28:09] PHP Parse error:  syntax error, unexpected $end in /home/pearlypi/public_html/bms/modules/job/index.php on line 51
+[03-Apr-2013 13:28:24] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[03-Apr-2013 13:28:24] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[03-Apr-2013 13:28:37] PHP Fatal error:  Class 'Job' not found in /home/pearlypi/public_html/bms/modules/job/index.php on line 29
+[03-Apr-2013 13:28:58] PHP Parse error:  syntax error, unexpected '}' in /home/pearlypi/public_html/bms/modules/job/class.php on line 137
+[03-Apr-2013 13:30:48] PHP Fatal error:  Call to undefined method Job::job_time() in /home/pearlypi/public_html/bms/modules/job/class.php on line 84
+[03-Apr-2013 13:39:31] PHP Fatal error:  Cannot redeclare Person::__construct() in /home/pearlypi/public_html/bms/modules/person/class.php on line 77
+[03-Apr-2013 13:44:24] PHP Fatal error:  Call to a member function can() on a non-object in /home/pearlypi/public_html/bms/modules/person/class.php on line 161
+[03-Apr-2013 13:45:00] PHP Parse error:  syntax error, unexpected T_REQUIRE, expecting T_FUNCTION in /home/pearlypi/public_html/bms/modules/job/class.php on line 5
+[03-Apr-2013 13:45:37] PHP Fatal error:  Cannot redeclare class Person in /home/pearlypi/public_html/bms/modules/person/class.php on line 3
+[03-Apr-2013 13:47:11] PHP Parse error:  syntax error, unexpected '[' in /home/pearlypi/public_html/bms/modules/job/class.php on line 125
+[03-Apr-2013 13:50:01] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/pearlypi/public_html/bms/modules/job/class.php on line 130
+[03-Apr-2013 13:51:04] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[03-Apr-2013 13:51:04] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[10-Jun-2013 18:19:25] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[10-Jun-2013 18:19:25] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
+[10-Jun-2013 18:19:26] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[10-Jun-2013 18:19:26] PHP Warning:  require(modules/task/index.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/pearlypi/public_html/bms/index.php on line 76
+[10-Jun-2013 18:19:26] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'modules/task/index.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/pearlypi/public_html/bms/index.php on line 76
+[10-Jun-2013 18:19:27] PHP Notice:  Undefined property: stdClass::$body in /home/pearlypi/public_html/bms/index.php on line 91
+[10-Jun-2013 18:19:27] PHP Fatal error:  Call to a member function flush_template() on a non-object in /home/pearlypi/public_html/bms/index.php on line 91
